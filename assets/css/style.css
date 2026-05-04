@@ -17781,9 +17781,17 @@ h2.main-title {
   margin-bottom: 16px;
 }
 
+.instructor-item.instructor-item-two .instructors-img a img{
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+}
+
 .instructor-item .instructors-img {
   position: relative;
 }
+
+
 
 .instructor-item .favourite {
   display: inline-flex;
