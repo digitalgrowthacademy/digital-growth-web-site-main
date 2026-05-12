@@ -13252,6 +13252,8 @@ iframe {
 .course-item.course-item-two {
   background: var(--white);
   margin-bottom: 24px;
+  height: 450px;
+  overflow: hidden;
 }
 
 .course-item.course-item-two .course-img {
@@ -13259,6 +13261,7 @@ iframe {
   overflow: hidden;
   transition: all 1.5s;
   max-height: 200px;
+  object-fit: cover;
 }
 
 .course-item.course-item-two .course-img .bg-01 {
@@ -17701,6 +17704,7 @@ h2.main-title {
   z-index: 3;
   overflow: hidden;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .instructor-item.instructor-item-two:hover .instructor__thumb-two .shape-one {
@@ -17781,9 +17785,17 @@ h2.main-title {
   margin-bottom: 16px;
 }
 
+.instructor-item.instructor-item-two .instructors-img a img{
+  object-fit: cover;
+  width: 300px;
+  height: 350px;
+}
+
 .instructor-item .instructors-img {
   position: relative;
 }
+
+
 
 .instructor-item .favourite {
   display: inline-flex;
