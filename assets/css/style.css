@@ -17789,7 +17789,7 @@ h2.main-title {
  /* object-fit: cover;*/
   /*width: 1000px;*/
   height: 350px;
-  padding-left: 3rem;
+  padding-left:rem;
 }
 
 .instructor-item .instructors-img {
